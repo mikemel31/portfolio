@@ -36,9 +36,9 @@ export const NavBar = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} href="#home">Home</Nav.Link>
-                        <Nav.Link className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')} href="#skills">Skills</Nav.Link>
-                        <Nav.Link className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')} href="#prjects">Projects</Nav.Link>
+                        <Nav.Link className='navbar-link' href="#home">About</Nav.Link>
+                        <Nav.Link className='navbar-link' href="#skills">Skills</Nav.Link>
+                        <Nav.Link className='navbar-link' href="#prjects">Projects</Nav.Link>
                     </Nav>
                     <span className="navbar-test">
                         <div className="social-icon">

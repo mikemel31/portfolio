@@ -28,11 +28,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
+}
+
+.nav-link:hover {
+  color: #000000;
+  font-size: medium;
 }
 
 span.navbar-text {
@@ -67,4 +71,36 @@ span.navbar-text {
   border-radius: 50%;
   height: 220px;
   width: auto;
+}
+
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+.icon-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+.icon-card:hover {
+  transform: scale(1.1);
 }
