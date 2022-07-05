@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Koulen;
+  src: url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  font-family: 'Koulen', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
+}
+
+span.navbar-text {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+}
+
+.social-icon {
+  display: flex;
+  margin-left: 20px;
+}
+
+.social-icon a {
+  display: inline-flex;
+  margin-right: 20px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  line-height: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+.about p{
+  padding-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.myPic {
+  border-radius: 50%;
+  height: 220px;
+  width: auto;
 }
