@@ -12,7 +12,7 @@ export const Social = () => {
             <a className='mx-2' href="https://www.linkedin.com/in/mike-mel/" target="_blank"><img src={linkedin} alt="linkedIn" height={50} width={'auto'} /></a>
             <a className='mx-2' href="https://github.com/mikemel31" target="_blank"><img src={github} alt="GitHub" height={50} width={"auto"} /></a>
             <a className='mx-2' href={mikeResume} target="_blank"><img src={resume} alt="email" height={50} width={'auto'} /></a>
-            <a className='mx-0' href="mailto: mihail3197@gmail.com" target="_blank"><img src={email} alt="email" height={50} width={'auto'} /></a>
+            <a className='mx-0' href="mailto: mihail3197@gmail.com" target="_blank"><img style={{objectFit: 'cover'}} src={email} alt="email" height={50} width={50} /></a>
             </footer>
         </div>
     )

@@ -11,73 +11,77 @@ import webpack from '../assets/img/webpack.png';
 
 export const Skills = () => {
     return (
-      <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
+      <section className="skills" id="skills">
+      <h2 className="skill-header">My Top Skills</h2>
 
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
+      <div className="skills-wrapper">
+        <div className="first-set animate__animated animate__pulse">
           <img
             src={html}
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            className="icon icon-card"
           />
           <img
             src={css}
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            className="icon icon-card"
+            style={{objectFit: 'cover'}}
           />
           <img
             src={js}
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            className="icon icon-card"
           />
           <img
             src={react}
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            className="icon icon-card"
+            style={{objectFit: 'cover'}}
           />
           <img
             src={nodejs}
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            className="icon icon-card"
           />
         </div>
 
-        <div class="second-set animate__animated animate__pulse">
+        <div className="second-set animate__animated animate__pulse">
           <img
             src={git}
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            className="icon icon-card"
           />
           <img
             src={express}
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            className="icon icon-card"
           />
           <img
             src={mongodb}
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            className="icon icon-card"
+            style={{objectFit: 'cover'}}
           />
           <img
             src={webpack}
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            className="icon icon-card"
+            style={{objectFit: 'cover'}}
           />
           <img
             src={bootstrap}
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            className="icon icon-card"
           />
         </div>
       </div>
