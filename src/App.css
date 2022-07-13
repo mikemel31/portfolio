@@ -106,8 +106,23 @@ span.navbar-text {
   transform: scale(1.1);
 }
 
+.desktop {
+  padding-top: 60px;
+}
+
 @media (max-width: 992px) {
   div .social-icon {
     padding-top: 1rem;
+  }
+  #mobileCamp {
+    display: none;
+  }
+
+  #desktopCamp {
+    transform: scale(0.75);
+  }
+
+  .icon .icon-card {
+    transform: scale(0.25);
   }
 }

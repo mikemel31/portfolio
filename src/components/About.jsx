@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <Card className="d-flex justify-content-center" style={{border: "none"}}>
       <Card.Header className="text-center fs-2" style={{border: "none"}}>About me</Card.Header>
-      <div className="row g-0">
+      <div className="row g-0 pt-3">
         <div className="col-lg-3 d-flex justify-content-center">
           <img src={myPic} alt="My pic" width={250} height={250} style={{objectFit: 'cover'}} className="rounded-circle pt-2"/>
         </div>
