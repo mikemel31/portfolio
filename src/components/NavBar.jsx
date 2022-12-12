@@ -38,7 +38,7 @@ export const NavBar = () => {
                     <Nav className="me-auto">
                         <Nav.Link className='navbar-link text-center' href="#home">About</Nav.Link>
                         <Nav.Link className='navbar-link text-center' href="#skills">Skills</Nav.Link>
-                        <Nav.Link className='navbar-link text-center' href="#prjects">Projects</Nav.Link>
+                        <Nav.Link className='navbar-link text-center' href="#projects">Projects</Nav.Link>
                     </Nav>
                     <span className="navbar-test">
                         <div className='social-icon d-flex justify-content-center'>

@@ -27,10 +27,10 @@ const foodArray = [];
 export const Projects = () => {
   return (
     <section className="projects" id="projects">
-      <h2 className="text-center">My Projects</h2>
-      <div className="row g-0 pt-4">
+      <h2 className="project-header">My Projects</h2>
+      <div className="row g-0">
         <Card style={{ minHeight: "540px" }} className="border-0">
-          <div className="p-4 row pl-auto">
+          <div className="row pl-auto">
             <div className="col-lg-5" id='desktopCamp'>
               <Card.Img
                 src="scht/CampDesk.png"
@@ -38,11 +38,15 @@ export const Projects = () => {
               />
             </div>
             <div className="col-lg-2" id='mobileCamp'>
-              <Card.Img src="scht/CampMobile.png" className="border-0 h-auto" />
+                <Card.Img src="scht/CampMobile.png" className="border-0 h-auto" />
             </div>
             <div className="col-lg-5 pt-4">
               <Card.Body>
-                <Card.Title>CAMPWITHME</Card.Title>
+                <Card.Title>
+                  <a href="https://campproject-mike.herokuapp.com/home">
+                    CAMPWITHME
+                  </a>
+                </Card.Title>
                 <Card.Text>
                   This app is a copy of YelpCamp that was created during the Web
                   Developer Bootcamp. This app provides people with information
@@ -55,7 +59,7 @@ export const Projects = () => {
       </div>
       <div className="row pt-4">
         <Card style={{ minHeight: "540px" }} className="border-0">
-          <div className="p-4 row">
+          <div className="row">
             <div className="col-lg-7 d-inline">
               <img className=" align-self-start img-fluid border-0"
                 src="scht/FoodDesk.png"
@@ -64,11 +68,39 @@ export const Projects = () => {
             </div>
             <div className="col-lg-5 pt-4">
               <Card.Body className="pt-5" style={{ minHeight: "140px" }}>
-                <Card.Title>FoodSmart</Card.Title>
+                <Card.Title>
+                  <a href="https://mikemel31.github.io/SmartFood/">
+                  FoodSmart
+                  </a>
+                </Card.Title>
                 <Card.Text>
                   This website was created to follow up the calorie plan that is
                   calculating on site and choose food plan for everyday delivery
                   of precooked food.
+                </Card.Text>
+              </Card.Body>
+            </div>
+          </div>
+        </Card>
+      </div>
+      <div className="row pt-4">
+        <Card style={{ minHeight: "540px" }} className="border-0">
+          <div className="row">
+            <div className="col-lg-7 d-inline">
+              <img className=" align-self-start img-fluid border-0"
+                src="scht/MIP.png"
+                style={{transform: 'scale(0.75)'}}
+              />
+            </div>
+            <div className="col-lg-5 pt-4">
+              <Card.Body className="pt-5" style={{ minHeight: "140px" }}>
+                <Card.Title>
+                  <a href="https://mikesmarvel.herokuapp.com/">
+                    MarvelProject
+                  </a>
+                </Card.Title>
+                <Card.Text>
+                  Description is coming
                 </Card.Text>
               </Card.Body>
             </div>
