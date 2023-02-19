@@ -5,7 +5,7 @@ My personal portfolio website to introduce myself, showcase my skills, recent pr
 - My LinkedIn profile
 [LinkedIn](https://www.linkedin.com/in/mike-mel/)
 - Link to the LIVE portfolio website: 
-TODO
+[Portfolio](https://portfolio-mike.herokuapp.com/)
 
 # Links to my previous projects
 - Smart Food
