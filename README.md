@@ -5,12 +5,12 @@ My personal portfolio website to introduce myself, showcase my skills, recent pr
 - My LinkedIn profile
 [LinkedIn](https://www.linkedin.com/in/mike-mel/)
 - Link to the LIVE portfolio website: 
-[Portfolio]([https://portfolio-mike.herokuapp.com/](https://mike-portfolio-0f8476ad1504.herokuapp.com/)
+[Portfolio](https://mike-portfolio-0f8476ad1504.herokuapp.com/)
 
 # Links to my previous projects
 - Smart Food
 [Live site](https://mikemel31.github.io/SmartFood/)
 - Camp With Love
-[Live site]([https://campproject-mike.herokuapp.com/home](https://mike-campproject-dcf4a2b9a059.herokuapp.com/)
+[Live site](https://mike-campproject-dcf4a2b9a059.herokuapp.com/)
 - Marvel World
-[Live site]([https://mikesmarvel.herokuapp.com/](https://mike-marvel-97bf10e9feb6.herokuapp.com/)
+[Live site](https://mike-marvel-97bf10e9feb6.herokuapp.com/)
