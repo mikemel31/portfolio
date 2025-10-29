@@ -19,7 +19,7 @@ export const Projects = () => {
             <div className="col-lg-5 pt-4">
               <Card.Body>
                 <Card.Title>
-                  <a href="https://campproject-mike.herokuapp.com/home">
+                  <a href="https://mike-campproject-dcf4a2b9a059.herokuapp.com/">
                     CAMPWITHME
                   </a>
                 </Card.Title>
@@ -31,14 +31,14 @@ export const Projects = () => {
                   username: mike <br/>
                   password: 1234
                   <br></br>
-                  <a target="_blank" href="https://github.com/mikemel31/CampGround-project">GitHub</a>
+                  <a target="_blank" href="https://github.com/mikemel31/CampGround-project" rel="noreferrer">GitHub</a>
                 <ul className="my-2">Technologies used
                   <li>EJS</li>
                   <li>Express.js / Node.js</li>
                   <li>MongoDB / Mongoose</li>
                   <li>Passport</li>
                   <li>APIs: cloudinary.com, mapbox.com</li>
-                  <li>more technologies used at <a target="_blank" href="https://github.com/mikemel31/CampGround-project">GitHub</a></li>
+                  <li>more technologies used at <a target="_blank" href="https://github.com/mikemel31/CampGround-project" rel="noreferrer">GitHub</a></li>
                 </ul>
                 <p>• Coded a user login system, storing encrypted information in cookies and SQL, to allow custom user
 experiences based on preferences while maintaining user privacy<br/>
@@ -61,7 +61,7 @@ experiences based on preferences while maintaining user privacy<br/>
             <div className="col-lg-5 pt-4">
               <Card.Body className="pt-5" style={{ minHeight: "140px" }}>
                 <Card.Title>
-                  <a href="https://mikesmarvel.herokuapp.com/">
+                  <a href="https://mike-marvel-97bf10e9feb6.herokuapp.com/">
                     MarvelProject
                   </a>
                 </Card.Title>
@@ -69,7 +69,7 @@ experiences based on preferences while maintaining user privacy<br/>
                   This app made for Marvel studio fans and gives them oportunity 
                   to know more about their favorite characters and comics. 
                   <br></br>
-                  <a target="_blank" href="https://github.com/mikemel31/MarvelProject">GitHub</a>
+                  <a target="_blank" href="https://github.com/mikemel31/MarvelProject" rel="noreferrer">GitHub</a>
                   <ul className="my-2"> Technologies used
                     <li>React</li>
                     <li>React Router</li>
@@ -109,7 +109,7 @@ increase the app’s speed and overall smoothness by 15%<br/>
                   calculating on site and choose food plan for everyday delivery
                   of precooked food. 
                   <br></br>
-                  <a target="_blank" href="https://github.com/mikemel31/SmartFood">GitHub</a>
+                  <a target="_blank" href="https://github.com/mikemel31/SmartFood" rel="noreferrer">GitHub</a>
                   <ul>Technologies used
                     <li>HTML / CSS / Javascript</li>
                     <li>Webpack / Babel</li>
